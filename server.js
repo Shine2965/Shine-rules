@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const TOKEN = 'YOUR_BOT_TOKEN_HERE'; // Ganti!
+const TOKEN = '8785872128:AAGJApScDjRIjg1VorXB35OvrvtUDCtVr0M'; // Ganti!
 const bot = new TelegramBot(TOKEN, { polling: false });
 
 const sessions = new Map();
